@@ -1,0 +1,14 @@
+
+schemaVersion: 2.1.0
+metadata:
+  name: ansible-ees
+  version: 1.0.0
+projects:
+  - name: ansible-ees
+    git:
+      remotes:
+        origin: 'https://github.com/jeanphilippelevy/ansible-ees.git'
+  - name: ansible-ee-gitops
+    git:
+      remotes:
+        origin: 'https://github.com/jeanphilippelevy/ansible-ee-gitops.git'
