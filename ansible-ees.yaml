@@ -4,10 +4,6 @@ metadata:
   name: ansible-ees
   version: 1.0.0
 projects:
-  - name: ansible-lab
-    git:
-      remotes:
-        origin: 'https://github.com/jeanphilippelevy/ansible-lab.git'
   - name: ansible-ees
     git:
       remotes:
@@ -16,3 +12,12 @@ projects:
     git:
       remotes:
         origin: 'https://github.com/jeanphilippelevy/ansible-ee-gitops.git'
+  - name: ansible-lab
+    git:
+      remotes:
+        origin: 'https://github.com/jeanphilippelevy/ansible-lab.git'
+  - name: ansible-collection-lab
+    git:
+      remotes:
+        origin: 'https://github.com/jeanphilippelevy/ansible-lab.git'
+        
