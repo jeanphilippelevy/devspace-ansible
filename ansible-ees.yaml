@@ -23,4 +23,12 @@ projects:
 components:
   - name: ansible
     container:
-      image: registry.redhat.io/ansible-automation-platform-23/ansible-builder-rhel8:latest
+      image: registry.redhat.io/ubi8/python-39
+commands:
+  - id: pip-install-requirements
+    exec:
+      commandLine: pip install --user ansible ansible-navigator
+      group:
+        kind: build
+        isDefault: true
+      component: ansible
