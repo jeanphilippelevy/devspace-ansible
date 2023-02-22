@@ -23,7 +23,7 @@ projects:
 components:
   - name: ansible
     container:
-      image: registry.redhat.io/ubi8/python-39
+      image: registry.redhat.io/devspaces/udi-rhel8
 commands:
   - id: pip-install-requirements
     exec:
