@@ -20,7 +20,7 @@ projects:
     git:
       remotes:
         origin: 'https://github.com/jeanphilippelevy/ansible-lab.git'
- commands:
+commands:
   - name: install
     actions:
       - type: exec
