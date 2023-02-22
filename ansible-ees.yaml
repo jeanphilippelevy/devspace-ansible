@@ -20,15 +20,3 @@ projects:
     git:
       remotes:
         origin: 'https://github.com/jeanphilippelevy/ansible-lab.git'
-components:
-  - name: ansible
-    container:
-      image: registry.redhat.io/devspaces/udi-rhel8
-commands:
-  - id: pip-install-requirements
-    exec:
-      commandLine: pip install --user ansible ansible-navigator
-      group:
-        kind: build
-        isDefault: true
-      component: ansible
