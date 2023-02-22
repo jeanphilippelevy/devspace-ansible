@@ -20,9 +20,7 @@ projects:
     git:
       remotes:
         origin: 'https://github.com/jeanphilippelevy/ansible-lab.git'
-commands:
-  - id: install
-    exec:
-      component: ansible
-      commandLine: pip3 install ansible ansible-navigator
-      workingDir: /project
+components:
+  - name: ansible
+    container:
+      image: registry.redhat.io/ansible-automation-platform-23/ansible-builder-rhel8:latest
