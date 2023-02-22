@@ -20,4 +20,10 @@ projects:
     git:
       remotes:
         origin: 'https://github.com/jeanphilippelevy/ansible-lab.git'
-        
+ commands:
+  - name: install
+    actions:
+      - type: exec
+        component: python
+        command: 'pip3 install ansible ansible-navigator'
+        workdir: '${CHE_PROJECTS_ROOT}'
