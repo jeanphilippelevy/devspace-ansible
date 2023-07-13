@@ -20,3 +20,12 @@ projects:
     git:
       remotes:
         origin: 'https://github.com/jeanphilippelevy/ansible-lab.git'
+components:
+  - name: tooling-container
+    container:
+      image: quay.io/devspaces/ansible-creator-ee@
+      memoryRequest: 256M
+      memoryLimit: 6Gi
+      cpuRequest: 250m
+      cpuLimit: 2000m
+      args: ['tail', '-f', '/dev/null']
