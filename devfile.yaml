@@ -5,7 +5,7 @@ metadata:
 components:
   - name: tooling-container
     container:
-      image: quay.io/devspaces/ansible-creator-ee:latest
+      image: aap-hub-aap.apps.ocp.jpl.ovh/ansible-ee-test:latest
       memoryRequest: 256M
       memoryLimit: 6Gi
       cpuRequest: 250m
