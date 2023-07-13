@@ -2,6 +2,15 @@ schemaVersion: 2.2.0
 metadata:
   name: ansible-ees
   version: 1.0.0
+components:
+  - name: tooling-container
+    container:
+      image: quay.io/devspaces/ansible-creator-ee:latest
+      memoryRequest: 256M
+      memoryLimit: 6Gi
+      cpuRequest: 250m
+      cpuLimit: 2000m
+      args: ['tail', '-f', '/dev/null']
 projects:
   - name: ansible-ees
     git:
@@ -19,3 +28,4 @@ projects:
     git:
       remotes:
         origin: 'https://github.com/jeanphilippelevy/ansible-lab.git'
+        github.com%2Fdevspaces-samples
