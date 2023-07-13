@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../devspace-ansible"
+		},
+		{
+			"path": "../ansible-ees"
+		},
+		{
+			"path": "../ansible-ee-gitops"
+		},
+		{
+			"path": "../ansible-lab"
+		},
+		{
+			"path": "../ansible-collection-lab"
+		}
+	]
+}

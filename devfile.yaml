@@ -11,7 +11,14 @@ components:
       cpuRequest: 250m
       cpuLimit: 2000m
       args: ['tail', '-f', '/dev/null']
+      env:
+        - name: VSCODE_DEFAULT_WORKSPACE
+      value: "/projects/devspace-ansible/devspace-ansible.code-workspace"
 projects:
+  - name: devspace-ansible
+    git:
+      remotes:
+        origin: 'https://github.com/jeanphilippelevy/devspace-ansible.git'
   - name: ansible-ees
     git:
       remotes:
@@ -27,4 +34,4 @@ projects:
   - name: ansible-collection-lab
     git:
       remotes:
-        origin: 'https://github.com/jeanphilippelevy/ansible-lab.git'
+        origin: 'https://github.com/jeanphilippelevy/ansible-collection-lab.git'
