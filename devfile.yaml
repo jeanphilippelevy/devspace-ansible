@@ -13,7 +13,7 @@ components:
       args: ['tail', '-f', '/dev/null']
       env:
         - name: VSCODE_DEFAULT_WORKSPACE
-      value: "/projects/devspace-ansible/devspace-ansible.code-workspace"
+          value: "/projects/devspace-ansible/devspace-ansible.code-workspace"
 projects:
   - name: devspace-ansible
     git:
