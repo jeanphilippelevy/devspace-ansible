@@ -18,5 +18,8 @@
 		{
 			"path": "../ansible-collection-lab"
 		}
-	]
+	],
+	"settings": {
+		"ansible.python.interpreterPath": "/bin/python"
+	}
 }
