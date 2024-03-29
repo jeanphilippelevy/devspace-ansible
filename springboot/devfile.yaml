@@ -5,7 +5,7 @@ metadata:
 components:
   - name: tooling-container
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-latest
+      image: registry.redhat.io/devspaces/udi-rhel8:latest 
       memoryRequest: 256M
       memoryLimit: 6Gi
       cpuRequest: 250m
