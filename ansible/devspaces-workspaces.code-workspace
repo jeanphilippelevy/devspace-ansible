@@ -1,22 +1,24 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"name": "devspaces-workspaces",
+			"path": "/projects/devspaces-workspaces"
 		},
 		{
-			"path": "../devspaces-workspaces"
+			"name": "ansible-ees",
+			"path": "/projects/ansible-ees"
 		},
 		{
-			"path": "../ansible-ees"
+			"name": "ansible-ee-gitops",
+			"path": "/projects/ansible-ee-gitops"
 		},
 		{
-			"path": "../ansible-ee-gitops"
+			"name": "ansible-lab",
+			"path": "/projects/ansible-lab"
 		},
 		{
-			"path": "../ansible-lab"
-		},
-		{
-			"path": "../ansible-collection-lab"
+			"name": "ansible-collection-lab",
+			"path": "/projects/ansible-collection-lab"
 		}
 	],
 	"settings": {
