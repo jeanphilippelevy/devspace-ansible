@@ -9,7 +9,7 @@ components:
       memoryRequest: 256M
       memoryLimit: 6Gi
       cpuRequest: 250m
-      cpuLimit: 2000m
+      cpuLimit: 4000m
       args: ['tail', '-f', '/dev/null']
 projects:
   - name: devfile-sample-code-with-quarkus
