@@ -15,7 +15,7 @@ components:
         - name: VSCODE_DEFAULT_WORKSPACE
           value: "/projects/devspace-workspaces/devspaces-workspaces.code-workspace"
 projects:
-  - name: devspace-ansible
+  - name: devspace-workspaces
     git:
       remotes:
         origin: 'https://github.com/jeanphilippelevy/devspaces-workspaces.git'
