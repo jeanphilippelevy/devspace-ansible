@@ -5,14 +5,14 @@ metadata:
 components:
   - name: tooling-container
     container:
-      image: quay.io/rhn_support_jlevy/springboot-jpl:latest 
+      image: quay.io/devfile/universal-developer-image:ubi8-latest
       memoryRequest: 256M
       memoryLimit: 6Gi
       cpuRequest: 250m
       cpuLimit: 2000m
       args: ['tail', '-f', '/dev/null']
 projects:
-  - name: devspace-ansible
+  - name: devfile-sample-java-springboot-basic
     git:
       remotes:
         origin: 'https://github.com/jeanphilippelevy/devfile-sample-java-springboot-basic.git'
