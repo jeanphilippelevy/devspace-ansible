@@ -13,9 +13,9 @@ components:
       args: ['tail', '-f', '/dev/null']
       env:
         - name: VSCODE_DEFAULT_WORKSPACE
-          value: "/projects/devspace-workspaces/devspaces-workspaces.code-workspace"
+          value: "/projects/devspaces-workspaces/devspaces-workspaces.code-workspace"
 projects:
-  - name: devspace-workspaces
+  - name: devspaces-workspaces
     git:
       remotes:
         origin: 'https://github.com/jeanphilippelevy/devspaces-workspaces.git'
